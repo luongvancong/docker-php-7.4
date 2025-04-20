@@ -1,4 +1,4 @@
-FROM php:7.2-apache
+FROM php:7.4-apache
 RUN apt update
 RUN apt-get install -y libmcrypt-dev zip unzip libzip-dev libssl-dev
 RUN apt-get install -y \
